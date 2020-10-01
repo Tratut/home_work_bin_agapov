@@ -1,4 +1,5 @@
 from ft_straight_code import ft_straight_code
+from ft_len_num import ft_len_num
 
 
 def ft_reverse_code(x):
@@ -12,6 +13,8 @@ def ft_reverse_code(x):
             elif cop % 10 == 0:
                 cop += 1
             cop = cop * 10 ** i + fragment
-        return cop
+        print("0" * (8 - ft_len_num(cop)), end="")
+        print(cop)
     else:
-        return cop
+        print("0" * (8 - ft_len_num(cop)), end="")
+        print(cop)

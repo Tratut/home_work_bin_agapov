@@ -13,6 +13,6 @@ def ft_straight_code(x):
         cop //= 2
         i += 1
     if bad:
-        return b + 1 * 10 ** 7
+        print(b + 1 * 10 ** 7)
     else:
-        return b
+        print(b)
